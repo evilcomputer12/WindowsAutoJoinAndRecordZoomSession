@@ -32,22 +32,26 @@
  python main.py
 
 or run run.bat
+
+to run the csv reader
+readcsv.bat
+
  Thanks to Anish Malla https://www.youtube.com/watch?v=V3IOfvGmqxs
  
  Also you need to change some zoom settings shown in the images bellow:
  
  
  
- ![alt text](https://github.com/evilcomputer12/ZoomAutoJoinAndRecordSession/blob/master/ZoomAudio.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/ZoomAudio.png?raw=true)
  
  
  
  
- ![alt text](https://github.com/evilcomputer12/ZoomAutoJoinAndRecordSession/blob/master/ZoomVideo.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/ZoomVideo.png?raw=true)
  
  
  
- ![alt text](https://github.com/evilcomputer12/ZoomAutoJoinAndRecordSession/blob/master/ZoomBrowser.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/ZoomBrowser.png?raw=true)
  
  Also you need to change the audio source in my case is audio="Stereo Mix (Realtek High Definition Audio)"
  
@@ -61,9 +65,9 @@ or run run.bat
  then
 	
  right click stereo mix
- ![alt text](https://github.com/evilcomputer12/ZoomAutoJoinAndRecordSession/blob/master/SoundSettings.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/SoundSettings.png?raw=true)
  
- ![alt text](https://github.com/evilcomputer12/ZoomAutoJoinAndRecordSession/blob/master/SoundSettings1.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/SoundSettings1.png?raw=true)
  
  If you don't have Stereo Mix, You can download https://vb-audio.com/Cable/index.htm, extract it, go to folder VBCABLE_Driver_Pack43 depending on if you have 64bit machine run VBCABLE_Setup_x64 as administrator and install the driver.
  
@@ -82,19 +86,19 @@ or run run.bat
  
  right click Cable
  
- ![alt text](https://github.com/evilcomputer12/ZoomAutoJoinAndRecordSession/blob/master/SoundSettings2.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/SoundSettings2.png?raw=true)
  
  
- ![alt text](https://github.com/evilcomputer12/ZoomAutoJoinAndRecordSession/blob/master/SoundSettings3.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/SoundSettings3.png?raw=true)
 
 
 zoom settings
 
-![alt text](https://github.com/evilcomputer12/ZoomAutoJoinAndRecordSession/blob/master/ZoomSettings.png?raw=true)
+![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/ZoomSettings.png?raw=true)
 
 
 
-![alt text](https://github.com/evilcomputer12/ZoomAutoJoinAndRecordSession/blob/master/ZoomSettings1.png?raw=true)
+![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/ZoomSettings1.png?raw=true)
 
 
  
@@ -106,4 +110,7 @@ zoom settings
  Update ...
  If you dont have zoom link you can add the meeting id in the csv and password for the meeting
  Please don't use the computer while you have a meeting id and password 
+ 
+ Update i have made a mac OS version
+ https://github.com/evilcomputer12/macOSAutoJoinAndRecordZoomSession
 
