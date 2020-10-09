@@ -42,16 +42,16 @@ readcsv.bat
  
  
  
- ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/ZoomAudio.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/main/ZoomAudio.png?raw=true)
  
  
  
  
- ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/ZoomVideo.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/main/ZoomVideo.png?raw=true)
  
  
  
- ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/ZoomBrowser.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/main/ZoomBrowser.png?raw=true)
  
  Also you need to change the audio source in my case is audio="Stereo Mix (Realtek High Definition Audio)"
  
@@ -65,9 +65,9 @@ readcsv.bat
  then
 	
  right click stereo mix
- ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/SoundSettings.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/main/SoundSettings.png?raw=true)
  
- ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/SoundSettings1.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/main/SoundSettings1.png?raw=true)
  
  If you don't have Stereo Mix, You can download https://vb-audio.com/Cable/index.htm, extract it, go to folder VBCABLE_Driver_Pack43 depending on if you have 64bit machine run VBCABLE_Setup_x64 as administrator and install the driver.
  
@@ -86,19 +86,19 @@ readcsv.bat
  
  right click Cable
  
- ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/SoundSettings2.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/main/SoundSettings2.png?raw=true)
  
  
- ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/SoundSettings3.png?raw=true)
+ ![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/main/SoundSettings3.png?raw=true)
 
 
 zoom settings
 
-![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/ZoomSettings.png?raw=true)
+![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/main/ZoomSettings.png?raw=true)
 
 
 
-![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/master/ZoomSettings1.png?raw=true)
+![alt text](https://github.com/evilcomputer12/WindowsAutoJoinAndRecordZoomSession/blob/main/ZoomSettings1.png?raw=true)
 
 
  
