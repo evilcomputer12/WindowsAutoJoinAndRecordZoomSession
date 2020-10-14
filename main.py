@@ -23,7 +23,7 @@ while True:
         if pd.isnull(df.loc[0, 'pass']):
           now = datetime.now()
           dt_file_name = now.strftime('"ZoomRecording-%Y-%m-%d_%H-%M-%S.mov"')
-          ffmpeger=subprocess.Popen('"bin/ffmpeg.exe" -y -rtbufsize 1024M -f gdigrab -i desktop  -f dshow -i audio="Stereo Mix (Realtek High Definition Audio)" -vcodec libx264 -pix_fmt yuv420p -preset ultrafast -strftime 1 ' + dt_file_name , shell=True, stdin=subprocess.PIPE)
+          ffmpeger=subprocess.Popen('"bin/ffmpeg.exe" -f gdigrab -i desktop  -f dshow -rtbufsize 1024M -i audio="Stereo Mix (Realtek High Definition Audio)" -vcodec libx264 -pix_fmt yuv420p -preset ultrafast -strftime 1 ' + dt_file_name , shell=True, stdin=subprocess.PIPE)
           chrome=subprocess.Popen('"bin/browser/App/Falkon/falkon.exe" ' + link ,shell = True, stdout=subprocess.PIPE)
           print("1")
           time.sleep(10)
@@ -32,7 +32,7 @@ while True:
         else:
           now = datetime.now()
           dt_file_name = now.strftime('"ZoomRecording-%Y-%m-%d_%H-%M-%S.mov"')
-          ffmpeger=subprocess.Popen('"bin/ffmpeg.exe" -y -rtbufsize 1024M -f gdigrab -i desktop  -f dshow -i audio="Stereo Mix (Realtek High Definition Audio)" -vcodec libx264 -pix_fmt yuv420p -preset ultrafast -strftime 1 ' + dt_file_name , shell=True, stdin=subprocess.PIPE)
+          ffmpeger=subprocess.Popen('"bin/ffmpeg.exe" -f gdigrab -i desktop  -f dshow -rtbufsize 1024M -i audio="Stereo Mix (Realtek High Definition Audio)" -vcodec libx264 -pix_fmt yuv420p -preset ultrafast -strftime 1 ' + dt_file_name , shell=True, stdin=subprocess.PIPE)
           chrome=subprocess.Popen('"bin/browser/App/Falkon/falkon.exe" ' + link ,shell = True, stdout=subprocess.PIPE)
           print("2")
           time.sleep(15)
@@ -46,7 +46,7 @@ while True:
        else:
        	now = datetime.now()
        	dt_file_name = now.strftime('"ZoomRecording-%Y-%m-%d_%H-%M-%S.mov"')
-       	ffmpeger=subprocess.Popen('"bin/ffmpeg.exe" -y -rtbufsize 1024M -f gdigrab -i desktop  -f dshow -i audio="Stereo Mix (Realtek High Definition Audio)" -vcodec libx264 -pix_fmt yuv420p -preset ultrafast -strftime 1 ' + dt_file_name , shell=True, stdin=subprocess.PIPE)
+       	ffmpeger=subprocess.Popen('"bin/ffmpeg.exe" -f gdigrab -i desktop  -f dshow -rtbufsize 1024M -i audio="Stereo Mix (Realtek High Definition Audio)" -vcodec libx264 -pix_fmt yuv420p -preset ultrafast -strftime 1 ' + dt_file_name , shell=True, stdin=subprocess.PIPE)
        	#ffmpeger=subprocess.Popen('"bin/ffmpeg.exe" -f gdigrab -i desktop  -f dshow -i audio="CABLE Output (VB-Audio Virtual Cable)" -vcodec libx264 -pix_fmt yuv420p -preset ultrafast -strftime 1 ' + dt_file_name , shell=True, stdin=subprocess.PIPE) 
        	link1 = "https://zoom.us/join"
         print("3")
@@ -72,5 +72,3 @@ while True:
         ffmpeger.communicate()
         keyboard.press_and_release('ctrl+q')
         time.sleep(60)     
-
-        
