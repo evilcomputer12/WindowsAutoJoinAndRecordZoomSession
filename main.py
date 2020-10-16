@@ -196,7 +196,7 @@ while True:
         ffmpeger.communicate()
         ffmpeger.communicate()
         ffmpeger.communicate()
-        keyboard.press_and_release('ctrl+q')
+        hotkey('ctrl', 'q')
         time.sleep(60)     
 
         
